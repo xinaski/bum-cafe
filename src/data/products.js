@@ -1,0 +1,24 @@
+export const PRODUCTS = [
+  // COLLONUT (deluxe)
+  { id: 'col-gra-250', slug: 'collonut-gra-250', nom: 'COLLONUT', tipus: 'collonut', format: 'gra', mida: 250, preu: 8.9, desc: 'Deluxe en gra 250g', img: '/product/collonut/collonut-gra-250.png' },
+  { id: 'col-gra-500', slug: 'collonut-gra-500', nom: 'COLLONUT', tipus: 'collonut', format: 'gra', mida: 500, preu: 15.9, desc: 'Deluxe en gra 500g', img: '/product/collonut/collonut-gra-500.png' },
+  { id: 'col-molt-250', slug: 'collonut-molt-250', nom: 'COLLONUT', tipus: 'collonut', format: 'molt', mida: 250, preu: 9.2, desc: 'Deluxe molt 250g', img: '/product/collonut/collonut-molt-250.png' },
+  { id: 'col-caps-10', slug: 'collonut-capsules-10', nom: 'COLLONUT', tipus: 'collonut', format: 'capsules', unitats: 10, preu: 5.9, desc: 'Deluxe en càpsules (10u) Nespresso', img: '/product/collonut/collonut-capsules-10.png' },
+
+  // ESPAVILA'T (normal)
+  { id: 'esp-gra-250', slug: 'espavilat-gra-250', nom: "ESPAVILA'T", tipus: 'espavilat', format: 'gra', mida: 250, preu: 6.9, desc: 'Diari en gra 250g', img: '/product/espavilat/espavilat-gra-250.png' },
+  { id: 'esp-molt-250', slug: 'espavilat-molt-250', nom: "ESPAVILA'T", tipus: 'espavilat', format: 'molt', mida: 250, preu: 7.2, desc: 'Diari molt 250g', img: '/product/espavilat/espavilat-molt-250.png' },
+  { id: 'esp-caps-10', slug: 'espavilat-capsules-10', nom: "ESPAVILA'T", tipus: 'espavilat', format: 'capsules', unitats: 10, preu: 4.9, desc: 'Diari en càpsules (10u) Nespresso', img: '/product/espavilat/espavilat-capsules-10.png' },
+
+  // DE LA IAIA (descafeïnat)
+  { id: 'iai-gra-250', slug: 'delaiaia-gra-250', nom: 'DE LA IAIA', tipus: 'delaiaia', format: 'gra', mida: 250, preu: 6.9, desc: 'Descafeïnat en gra 250g', img: '/product/delaiaia/delaiaia-gra-250.png' },
+  { id: 'iai-molt-250', slug: 'delaiaia-molt-250', nom: 'DE LA IAIA', tipus: 'delaiaia', format: 'molt', mida: 250, preu: 7.1, desc: 'Descafeïnat molt 250g', img: '/product/delaiaia/delaiaia-molt-250.png' },
+  { id: 'iai-caps-10', slug: 'delaiaia-capsules-10', nom: 'DE LA IAIA', tipus: 'delaiaia', format: 'capsules', unitats: 10, preu: 4.8, desc: 'Descafeïnat en càpsules (10u) Nespresso', img: '/product/delaiaia/delaiaia-capsules-10.png' },
+]
+
+export const TIPUS = ['collonut','espavilat','delaiaia']    // categories
+export const FORMATS = ['gra','molt','capsules']             // presentacions
+
+export function findBySlug(slug) {
+  return PRODUCTS.find(p => p.slug === slug)
+}
