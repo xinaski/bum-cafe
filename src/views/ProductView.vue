@@ -66,7 +66,7 @@ function onImgErr() {
     <div v-if="!p" class="py-16 text-center">
       <p class="text-2xl font-bold mb-2">No hem trobat el producte</p>
       <p class="text-slate-600 mb-6">Potser s’ha mogut o el link no és correcte.</p>
-      <RouterLink to="/botiga" class="btn btn-primary">Torna a la botiga</RouterLink>
+      <RouterLink to="/botiga" class="btn btn-primary">Torna a la botiga company</RouterLink>
     </div>
 
     <div v-else>
