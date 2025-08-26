@@ -45,8 +45,16 @@ const filtered = computed(() =>
 </script>
 
 <template>
+
+  <section class="bg-center bg-no-repeat bg-[url('/miscelanea/img-coffeeshop.jpg')] bg-gray-600 bg-blend-multiply mb-6">
+    <div class="px-4 mx-auto max-w-screen-xl py-24 lg:py-24">
+      <p class="text-3xl text-white font-semibold tracking-wide uppercase transform scale-x-125 origin-left">
+        Botiga
+      </p>
+    </div>
+  </section>
+          
   <section class="container-page py-8">
-    <h1 class="text-2xl font-bold mb-4">Botiga</h1>
 
     <!-- Filtres -->
     <div class="mb-6 grid grid-cols-1 sm:grid-cols-3 gap-3">

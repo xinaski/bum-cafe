@@ -1,13 +1,15 @@
 <template>
+   <section class="bg-center bg-no-repeat bg-[url('/miscelanea/img-coffeeroaster.png')] bg-gray-600 bg-blend-multiply mb-6">
+        <div class="px-4 mx-auto max-w-screen-xl py-24 lg:py-24">
+          <p class="text-3xl text-white font-semibold tracking-wide uppercase transform scale-x-125 origin-left">
+            Sobre nosaltres
+          </p>
+        </div>
+      </section>
+
   <section id="sobre-nosaltres" aria-labelledby="sobre-nosaltres-title" class="relative overflow-hidden">
-    <img class="object-cover w-full h-64 mb-6 rounded shadow-lg lg:h-80 xl:h-96" 
-          src="/about/img-about.jpg" alt="img de la iaia" />
 
     <div class="mx-auto max-w-5xl px-6 py-16">
-
-      <p class="mb-1 text-3xl font-semibold tracking-wide uppercase md:mb-2 transform scale-x-125 origin-left">
-       Sobre nosaltres
-      </p>
 
       <p class="mt-6 text-lg leading-relaxed text-gray-700">
         Som els de <strong>BUM Cafè</strong> i sí: estem <em>greument</em> enamorats del cafè (cap remei possible). Ens agrada
