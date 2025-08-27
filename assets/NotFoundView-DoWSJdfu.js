@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{b as o,i as e}from"./index-CrUKkh_s.js";const r={},c={class:"text-2xl font-bold text-red-500"};function n(s,_){return e(),o("h1",c,"404 — No trobat")}const d=t(r,[["render",n]]);export{d as default};
